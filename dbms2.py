@@ -1,0 +1,22 @@
+--SELECT * FROM demo;
+--create table patientinfo2
+--(patientid int,fname varchar2,lname varchar2,city varchar2,phoneno int,gender varchar2);
+--insert into patientinfo2 values(101,"agal","ya","chennai",9786577030,'female');
+--insert into patientinfo2 values(102,"sharmi","rajesh","chennai",89897654,'female');
+--insert into patientinfo2 values(103,"madhavan","swaminathan","bangalore",77779995555,'male');
+--insert into patientinfo2 values(104,"kalai","kandisamy","virudhachalam",9999955559,'female');
+--select* from patientinfo2;
+--create table consultation(fname,lname,consult_date);
+--insert INTO CONSULTATION VALUES('agal','ya',date());
+--insert into consultation values('sharmi','rajesh',date());
+select* from consultation;
+--select lname,fname,city from patientinfo2;
+--select lname,fname from patientinfo2 where city='chennai';
+--select lname,fname from patientinfo2 where city!='chennai';
+--select lname as last_name,fname as first_name,city from patientinfo2;
+--select count(gender) from patientinfo2
+--where gender='male'
+--select p1.pid,fname,gender,cons_date
+--from patientinfo p1
+--join consultation c1
+--on p1.pid=c1.pid;
